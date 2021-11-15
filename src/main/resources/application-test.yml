@@ -1,0 +1,13 @@
+my.service: Hello Login Service Test
+db.value: "{connectionSting : 'http://---', userName : 'user', password : 'password'}"
+
+app: 
+ name: LoginService
+ description: Creation of LoginService
+
+db: 
+ connection: dbconn
+ host: host
+ port: 1433
+
+management.endpoints.web..exposure.include: "*"
